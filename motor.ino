@@ -1,7 +1,5 @@
 #include <SPI.h>
 #include "df_can.h"
-// "df_can.h" can be downloaded from below
-// https://wiki.dfrobot.com/CAN-BUS_Shield_V2__SKU__DFR0370_
 
 const int SPI_CS_PIN = 10;
 MCPCAN CAN(SPI_CS_PIN);
